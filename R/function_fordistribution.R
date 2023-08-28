@@ -160,7 +160,7 @@ convert.epipara.to.delappara = function(
 #'
 #'
 #' @return
-#' \code{d_offspringdistn()} is the probability density function (PDF), and it returns value of probability density (non-negative value).
+#' \code{d_reproductiondistn()} is the probability density function (PDF), and it returns value of probability density (non-negative value).
 #'
 #' @export
 #' d_reproductiondistn
@@ -202,7 +202,7 @@ d_reproductiondistn = function(
 
   PDF.array = dgamma(
     x = x - delap.para$lambda, log = is.log,
-    shape = delap.para$alpha, rate = delap.para$beta#, lambda = delap.para$lambda
+    shape = delap.para$alpha, scale = delap.para$beta#, lambda = delap.para$lambda
   )
 
   return(c(PDF.array))

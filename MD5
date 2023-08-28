@@ -1,7 +1,7 @@
-6c6fd095635f9b54dbd5fe3d9b3b1a38 *DESCRIPTION
+9c567f0a4b24e2cab54b2183977b7864 *DESCRIPTION
 5595dd3b297b258b742c6a73b363e60c *NAMESPACE
 238274deefb42fc6a63811de0ca50e3b *R/data.R
-1d78fb5b9ab6021f6be83dc92e9d7e67 *R/function_fordistribution.R
+7adf04459e5f90217ecc1339b0567851 *R/function_fordistribution.R
 25074e626e95cd003e4137cca424cc96 *R/function_forfitting.R
 f01682ffd9d5582c0d3b8a226f3c2b16 *build/partial.rdb
 1483cb656b895746f21c5ecd740a1800 *data/COVID19_JanApr2020_HongKong.rda
@@ -14,7 +14,7 @@ c0c7d25f3cc7cd1483bf9f97c758d4fe *man/MERS_2013_MEregion.Rd
 13d3816bb02f2b76b6342ca39023d458 *man/d_nextgenclusterdistn.Rd
 65ecdd96324562342d90644071e14d93 *man/d_offspringdistn.Rd
 484f847896f86421d9ddea6b7589e664 *man/d_outbreakdistn.Rd
-2a6908ca91b6d6be4ea0150be250ec52 *man/d_reproductiondistn.Rd
+69b1aabef7633da5da78e14af3fa1567 *man/d_reproductiondistn.Rd
 ea3ad89c2a439f74c670705d52f25fe5 *man/mpox_19801984_DRC.Rd
 61da4875b8ab46bfeba9a1e0e17e9580 *man/overalllikelihood.Rd
 ffd7daf4a090fba4486a0a8e0fc89313 *man/paraest.MCMC.Rd

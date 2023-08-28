@@ -34,7 +34,7 @@ By default, \code{offspring.type = 'D'}.}
 By default, \code{is.log = FALSE}.}
 }
 \value{
-\code{d_offspringdistn()} is the probability density function (PDF), and it returns value of probability density (non-negative value).
+\code{d_reproductiondistn()} is the probability density function (PDF), and it returns value of probability density (non-negative value).
 }
 \description{
 This function (i.e., \code{d_reproductiondistn()}) is the probability density function (PDF) of \strong{individual reproduction number} that was modelled as a shifted gamma distribution.
