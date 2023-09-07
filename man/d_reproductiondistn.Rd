@@ -41,7 +41,7 @@ This function (i.e., \code{d_reproductiondistn()}) is the probability density fu
 }
 \note{
 Only the PDF of individual reproduction number (i.e., \code{d_reproductiondistn()}) was created here (without cumulative distribution, quantile, or random variable generating functions).
-The function \code{d_reproductiondistn()} was used mainly for data visualization purpose,
+The function \code{d_reproductiondistn()} was used mainly for data visualization purpose (rather than using for analysis),
 because the distribution of individual reproduction number was not explicitly used in model fitting to the disease contact tracing data.
 
 When \code{offspring.type = "P"}, individual reproduction number follows a \emph{Dirac delta} distribution, which is difficult to return any value, or visualize the PDF, because of the nature of this pulse function.

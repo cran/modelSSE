@@ -59,7 +59,7 @@ By default, \code{is.log = FALSE}.}
 
 \item{q}{A scalar, or a vector of non-negative number (not necessarily integer).}
 
-\item{lower.tail}{A logical variable, under which the probability is cumulative distribution function (CDF, i.e., \emph{P(X <= x)}), if \code{is.log = TRUE}, and otherwise, 1 - CDF (i.e., \emph{P(X > x)}).
+\item{lower.tail}{A logical variable, under which the probability is cumulative distribution function (CDF, i.e., \emph{P(X <= x)}), if \code{lower.tail = TRUE}, and otherwise, 1 - CDF (i.e., \emph{P(X > x)}).
 By default, \code{lower.tail = TRUE}.}
 
 \item{p}{A scalar, or a vector of probability (i.e., ranging from 0 to 1).}
@@ -72,7 +72,7 @@ For the values returned from the four functions,
 \item{\code{d_offspringdistn()}}{ is the \emph{probability mass function} (PMF), and it returns value of probability (i.e., ranging from 0 to 1); }
 \item{\code{p_offspringdistn()}}{ is the \emph{cumulative distribution function} (CDF), and it returns value of probability (i.e., ranging from 0 to 1); }
 \item{\code{q_offspringdistn()}}{ is the \emph{quantile function}, and it returns value of quantile (non-negative integer); and }
-\item{\code{r_offspringdistn()}}{ is the \emph{random variable generating function}, and it generates a set of random variables (non-negative integers) with size given in \code{n}. }
+\item{\code{r_offspringdistn()}}{ is the \emph{random variable generating function}, and it generates a set of \code{n} random variables (non-negative integers). }
 }
 }
 \description{
